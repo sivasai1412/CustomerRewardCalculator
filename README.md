@@ -55,7 +55,7 @@ For Example:
 GET /api/rewards/1
 ```
 **Sample Response**:
-```
+```json
 {
     "OCTOBER": 90,
     "AUGUST": 250,
@@ -83,7 +83,7 @@ GET /api/rewards/1
 GET /api/rewards/summary?year=2024&month=10
 ```
 **Sample Response**:
-```
+```json
 {
     "1": {
         "name": "Siva Sai",
